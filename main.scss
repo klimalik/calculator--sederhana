@@ -5,7 +5,6 @@
 #calculator {
     width: 70%;
     margin: 10px auto;
-    // border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -101,8 +100,6 @@
 }
 
 .clear {
-    // width: 200px;
-    // text-align: center;
     background-color: crimson;
     transition: .2s;
     font-weight: bold;
@@ -118,7 +115,6 @@
 @media(max-width : 480px) {
     #calculator {
         width: 100%;
-        // border: 1px solid black;
         h1 {
             margin-top: 10px;
             span {
@@ -141,7 +137,6 @@
             ul {
                 button {
                     font-size: 1.3rem;
-                    // margin: 0 8px;
                 }
             }
         }
