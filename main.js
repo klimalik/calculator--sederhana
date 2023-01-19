@@ -22,7 +22,6 @@ const tampilOperator = () => {
     return arrOperator.map(a => {
         a.addEventListener('click', () => {
             let b = area.value += a.innerHTML;
-            console.log(b);
         })
     })
 }
@@ -42,33 +41,3 @@ clear.addEventListener('click', () => {
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// arrOperator.map(a => {
-//     a.addEventListener('click', () => {
-//         let b = area.value += a.innerHTML;
-//         console.log(b);
-//     })
-// })
